@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders coorectly 1`] = `
+<header
+  className="Header"
+>
+  <a
+    className="header-logo"
+    href="#"
+  >
+    <Logo />
+  </a>
+  <nav
+    className="Header-menu"
+  >
+    <ul
+      className="Header-menu__items"
+    >
+      <li>
+        <a
+          href="#"
+        >
+          Satış Partneri Ol
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+        >
+          Kapidoo Nasıl Çalışır
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+        >
+          Giriş Yap
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <a
+    className="cta"
+    href="#"
+  >
+    <Button
+      className="blue-button"
+      label="Üye Ol"
+    />
+  </a>
+</header>
+`;

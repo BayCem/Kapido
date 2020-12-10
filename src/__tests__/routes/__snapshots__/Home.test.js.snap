@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders coorectly 1`] = `
+<div>
+  <h2>
+    Ürünleri Satmanın En Hızlı ve En Kolay Yolu
+  </h2>
+  <Link
+    to="/basla"
+  >
+    <Button
+      className="shadow-blue-button"
+      label="Satmaya Başla"
+    />
+  </Link>
+</div>
+`;

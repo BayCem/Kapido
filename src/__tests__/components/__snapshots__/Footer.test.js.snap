@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders coorectly 1`] = `
+<footer
+  className="Footer"
+>
+  <nav
+    className="Footer-menu"
+  >
+    <a
+      className="Footer-menu__item"
+      href="#"
+      target="_blank"
+    >
+      Hakkımızda
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="#"
+      target="_blank"
+    >
+      İletişim
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="#"
+      target="_blank"
+    >
+      Kariyer
+    </a>
+  </nav>
+</footer>
+`;

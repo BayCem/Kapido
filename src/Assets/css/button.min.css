@@ -1,0 +1,42 @@
+.blue-button {
+  border: none;
+  color: #fff;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #4a6ae3;
+  border-radius: 32px;
+}
+
+.blue-button:focus {
+  outline: 0;
+}
+
+.blue-button:hover {
+  background-color: #2753dd;
+}
+
+.shadow-blue-button {
+  width: 140px;
+  height: 52px;
+  font-size: 11px;
+  letter-spacing: 1.3px;
+  font-weight: 500;
+  color: #333;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: 0;
+}
+
+.shadow-blue-button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}

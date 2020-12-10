@@ -1,0 +1,46 @@
+$primary-color: #333;
+$DARKBLUE: #2753dd;
+$BLUE: #4a6ae3;
+
+.blue-button {
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: $BLUE;
+  border-radius: 32px;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    background-color: $DARKBLUE;
+  }
+}
+
+.shadow-blue-button {
+  width: 140px;
+  height: 52px;
+  font-size: 11px;
+  letter-spacing: 1.3px;
+  font-weight: 500;
+  color: $primary-color;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #2ee59d;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+}
